@@ -93,6 +93,8 @@ Notes
 Notes
 - The backend uses in-memory storage for simplicity; replace with a database for persistence.
 - The UI is responsive and styled with Tailwind to match the provided Figma and screenshot.
-- <img width="1869" height="1079" alt="image" src="https://github.com/user-attachments/assets/7252c913-2137-4089-bf37-1cdae8887f9d" />
-<img width="1918" height="1077" alt="image" src="https://github.com/user-attachments/assets/adbb1f81-83be-4473-ab8b-07fdbcb51ae4" />
+- <img width="1916" height="1019" alt="image" src="https://github.com/user-attachments/assets/dd31fefb-0f93-451a-bf49-c47d4e13e634" />
+
+<img width="1891" height="1008" alt="image" src="https://github.com/user-attachments/assets/a9fe9205-8b9e-4d08-9680-23546b105ddc" />
+
 
