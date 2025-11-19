@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+:root{
+	--brand: #4b6cff;
+	--muted: #6b7280;
+}
+body { font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; @apply bg-gray-50 text-gray-900; }
+
+.hero-card{ @apply bg-white rounded-lg overflow-hidden mb-4 shadow-md }
+.hero-top{ background: linear-gradient(180deg,var(--brand),#5a74ff); height:120px }
+.hero-body{ padding: 16px }
+.floating-add{ position: fixed; right: 20px; bottom: 28px; width:64px; height:64px; border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 6px 20px rgba(75,108,255,0.3); background:var(--brand); color:white; font-size:28px }
+.week-progress{ height:10px; background:#e6e9ff; border-radius:8px; overflow:hidden }
+.week-progress > .bar{ height:100%; background: linear-gradient(90deg, var(--brand), #9fb1ff) }
+.sheet{ position:fixed; left:0; right:0; bottom:0; background:white; border-top-left-radius:12px; border-top-right-radius:12px; box-shadow:0 -10px 30px rgba(15,23,42,0.12); max-height:86vh; overflow:auto }
+.sheet .form-inner{ padding:16px }
+.task-priority{ width:9px; height:9px; border-radius:2px; display:inline-block; margin-right:8px }
+
+.summary-row{ display:flex; gap:12px; margin-top:12px }
+.summary-card{ flex:1; background:white; border-radius:10px; padding:14px; box-shadow:0 6px 18px rgba(2,6,23,0.06); display:flex; align-items:center; justify-content:space-between }
+.summary-card .label{ font-size:12px; color:var(--muted) }
+.summary-card .value{ font-size:20px; font-weight:600 }
+.summary-card.pending{ border-left:4px solid #fb7185 }
+.summary-card.complete{ border-left:4px solid #34d399 }
